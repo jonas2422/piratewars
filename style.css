@@ -1,0 +1,588 @@
+h1, h2, h3, h4{
+  margin: 0;
+}
+.firstcreen{
+  height: 100vh;
+  width: auto;
+  background-image: url(./galery/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstcreenbox{
+  display: block;
+  -webkit-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+-moz-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+  background-color: white;
+  width: 60%;
+  height: auto;
+}
+.boxlineleft{
+  border-left: 1px solid green;
+}
+.gamedescription h1{
+  font-weight: bold;
+  text-align: center;
+  color: #3D9970;
+}
+.gamedescription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.padding p{
+  margin: 0;
+  text-align: center;
+}
+.padding{
+  padding: 10px 0;
+}
+.centerbtns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnwidth{
+  width: 100%;
+  text-align: center;
+}
+.signin{
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxinsidesignin{
+  display: block;
+  -webkit-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+-moz-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+  background-color: white;
+  width: 35%;
+  height: auto;
+  padding: 2% 0;
+}
+.boxinsidesignin h2{
+  font-weight: bold;
+  text-align: center;
+  color: #3D9970;
+}
+.signinform, .updateform{
+  display: inline;
+  text-align: center;
+}
+.signinform input, .updateform input{
+  width: 72%;
+  margin: 1% 0;
+  border: 2px solid #3D9970;
+  border-radius: 10px;
+  padding: 1%;
+}
+.signinform input[type="submit"], .updateform input[type="submit"]{
+  width: 25%;
+  height: 5%;
+  margin-top: 1%;
+}
+.signinform label, .updateform label{
+  color: red;
+}
+.signinform label::before, .updateform label::before{
+    content: " * "
+}
+.extralinks p{
+  margin: 0;
+}
+#uem, #uid{
+  display: none;
+}
+.containerdesign{
+  -webkit-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+-moz-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+  background-color: white;
+  padding: 2% 0;
+}
+.userimage{
+  height: 50px;
+  width: 50px;
+  background-image: url(./galery/user.png);
+  background-size: cover;
+  background-position: center;
+}
+.gold{
+  height: 50px;
+  width: 50px;
+  background-image: url(./galery/treasure.png);
+  background-size: cover;
+  background-position: center;
+}
+.inline{display: inline-block;
+  vertical-align: middle;
+}
+.floatright{
+  float: right;
+  margin-right: 10%;
+}
+.floatleft{
+  float: left;
+  margin-left: 8%;
+}
+.game{
+  height: 100vh;
+  width: auto;
+  position: relative;
+  background-image: url(./galery/ingameinbg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.chat{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  border-left: 1px solid #3D9970;
+  background-color: white;
+  width: 25%;
+  height: 50%;
+}
+.chattop{
+  height: 8%;
+
+  background-color: #3D9970;
+}
+.chattext{
+  height: 65%;
+  overflow-y: scroll;
+}
+.chattop h4{
+  text-align: center;
+  color: white;
+  padding: 0.5% 0;
+}
+.chatform textarea{
+  resize: none;
+  width: 100%;
+  height: 20%;
+
+}
+.chatform{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.chatform input{
+  display: inline;
+  text-align: center;
+}
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.chattext{
+  padding: 0 2%;
+}
+.shopbutton{
+  margin-right: 10px;
+}
+.stats{
+  padding: 5% 0;
+  color: #3D9970;
+  margin-left: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  text-align: center;
+    border: 8px solid #ffff; /* Light grey */
+    border-top: 8px solid red; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.whenloading{
+  text-align: center;
+  color: #3D9970;
+}
+.whenloading p{
+  margin-bottom: 3px;
+}
+.stats h2{
+    font-weight: 900;
+}
+.startmatch{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chatpost h5{
+  color: red;
+  margin-bottom: 0;
+}
+.inventory{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inventory button{
+  width: 150px;
+}
+.inventory button:nth-child(3n){
+  margin-top: 5%;
+}
+.leaderboard{
+  height: 40vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.duhas{
+  height: 10vh;
+}
+.centerall{
+  text-align: center;
+  color: #3D9970;
+}
+.centerall h4{
+  font-weight: bold;
+}
+.ldb{
+  padding: 3% 0;
+  border-bottom: 2px solid #ccc;
+}
+.gol h4{
+  color: #ffd700!important;
+}
+.silver h4{
+  color: 	#A9A9A9!important;
+}
+.bronze h4{
+  color: #cd7f32!important;
+}
+.goback{
+  display: flex;
+  justify-content: center;
+}
+.dashboard{
+  height: 40vh
+}
+.settingsboard{
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.settingstext{
+  color: #3D9970;
+  font-weight: bold;
+  text-align: center;
+}
+.formcenter label{
+  display: block;
+  margin-bottom: 0;
+}
+.designitem{
+  border-bottom: 3px solid #ccc;
+}
+.userchangeimage{
+  width: 200px;
+  height: 150px;
+  background-image: url(./galery/profile.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.userchange{
+  width: 202px;
+  height: auto;
+  text-align: center;
+  border: 2px solid #ccc;
+  color: #3D9970;
+}
+.userchange button{
+  margin-left: 3%;
+}
+.userchange h4{
+  font-weight: bolder;
+}
+.centershop{
+  padding: 3% 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.shop{
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+.ui-dialog-titlebar{
+  display: none;
+}
+.dialogbar{
+  display: block;
+  border-radius: 25px;
+    height: 100%;
+  background-image: url(./galery/bgpop.png)!important;
+  background-size: cover!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.dialogwin{
+  display: block;
+  border-radius: 25px;
+    height: 100%;
+  background-image: url(./galery/bgwin.png)!important;
+  background-size: cover!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.dialogwin h3, .dialogwin h4{
+  color: white;
+  font-weight: bold;
+}
+.dialogwin button{
+  margin-top: 5px;
+}
+.dialogbar label{
+  color: red;
+}
+.dialogbar form{
+  position: relative;
+}
+.dialogbar input{
+  padding: 2% 3%;
+  border: none;
+  border-radius: 25px;
+}
+.clickchangeuser{
+  border-radius: 5px!important;
+  margin-top: 3%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.errormessage{
+  color: red;
+}
+.iteminv{
+  border: 2px solid #ccc;
+  text-align: center;
+  color: #3D9970
+}
+.iteminv:hover{
+  border-color: gold;
+  cursor: pointer;
+}
+.iteminv h4{
+  font-weight: bolder;
+}
+.shopinventory{
+  height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+}
+.shopinventory p{
+  margin: 0;
+  color: red;
+}
+#container {
+
+}
+#canvas {
+  /*height: 100%;*/
+  /*width: 100%;*/
+  float:left;
+}
+
+
+.buttondirection {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+    display: none;
+}
+
+.button1 {
+  top: 20%;
+  bottom: 0;
+  left: 28%;
+}
+
+.button2 {
+  top: 20%;
+  bottom: 0;
+  left: 50%;
+  margin-left: 10px;
+}
+
+.button3 {
+  top: 35%;
+  margin-top: 30px;
+  bottom: 0;
+  left: 28%;
+}
+
+.button4 {
+  top: 35%;
+  margin-top: 30px;
+  bottom: 0;
+  left: 50%;
+  margin-left: 10px;
+}
+
+
+.answer1q {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  top: 0;
+  right: 60px;
+  width: 40%;
+  height: 50px;
+  color: white;
+  line-height: 2.1;
+}
+.hidebeforemove{
+  display: none;
+}
+.answer2q {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 50px;
+  color: white;
+  line-height: 2.1;
+}
+
+#gold_amount p {
+  color: white;
+  display: inline;
+  display:flex;
+}
+
+#gold_amount p img {
+  width: 30px !important;
+  height: 24px;
+}
+
+#gold_amount p::after {
+  content: "";
+}
+
+#point_amount {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+
+#point_amount p {
+  color: white;
+}
+
+#point_amount p::after {
+  content: "pts";
+}
+
+#finish {
+  position: absolute;
+  background: red;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+
+#question_box {
+  background-color: white;
+  height: 200px;
+  position: relative;
+float: left;
+top: 0px;
+/* right: -360px; */
+width: 100%;
+padding: 0;
+margin-bottom: 0;
+text-align: center;
+}
+#opponent_box{
+  background-color: white;
+  color: red;
+  height: 200px;
+  position: relative;
+float: left;
+top: 0px;
+/* right: -360px; */
+width: 100%;
+padding: 0;
+margin-bottom: 0;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.question-text {
+  height: auto;
+  width: 580px;
+  text-align: center;
+}
+.centercanvas{
+  display: block;
+  -webkit-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+-moz-box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+box-shadow: 2px 2px 15px 3px rgba(61,61,61,1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#question_box p{
+  margin-bottom: 5px;
+}
+.vswho{
+  width: 100vw;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
